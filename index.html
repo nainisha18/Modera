@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover MODERA, where modest fashion meets feminine luxury. Explore timeless silhouettes and effortless elegance.">
+
+    <title>MODERA | Elegance in Every Detail</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>TIMELESS STYLE. EFFORTLESS ELEGANCE.</p>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="home">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="logo" aria-label="MODERA home">
+                MODERA<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#collections" class="nav-link">Collections</a></li>
+                <li><a href="#story" class="nav-link">Our Story</a></li>
+                <li><a href="#features" class="nav-link">Our Philosophy</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="#collections" class="nav-cta">
+                EXPLORE <i data-lucide="arrow-up-right"></i>
+            </a>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    THE ART OF MODEST LUXURY
+                </span>
+
+                <h1>
+                    Elegance, woven<br>
+                    into every <em>moment.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Discover thoughtfully curated modest fashion that
+                    celebrates femininity, timeless beauty, and the
+                    confidence of being unapologetically you.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#collections" class="btn btn-primary">
+                        EXPLORE THE COLLECTION
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                    <a href="#story" class="text-link">
+                        Discover our story
+                        <i data-lucide="arrow-down-right"></i>
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-number">01</span>
+                    <span>MODEST BY NATURE. ELEGANT BY DESIGN.</span>
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <img
+                        src="images/modera-hero.jpg"
+                        alt="Elegant contemporary fashion editorial"
+                    >
+                </div>
+
+                <div class="image-caption">
+                    <span>THE NEW PERSPECTIVE</span>
+                    <span>COLLECTION N° 01</span>
+                </div>
+
+                <div class="floating-note">
+                    <span class="floating-icon">✳</span>
+                    <div>
+                        <strong>Quietly beautiful.</strong>
+                        <p>Always authentically you.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Brand Strip -->
+        <section class="brand-strip" aria-label="Our brand values">
+            <div class="brand-strip-inner">
+                <span>TIMELESS SILHOUETTES</span>
+                <span class="strip-star">✳</span>
+                <span>THOUGHTFUL DETAILS</span>
+                <span class="strip-star">✳</span>
+                <span>EFFORTLESS ELEGANCE</span>
+                <span class="strip-star">✳</span>
+                <span>TIMELESS SILHOUETTES</span>
+            </div>
+        </section>
+
+        <!-- Collections -->
+        <section class="collections section-padding" id="collections">
+
+            <div class="section-heading container">
+                <div>
+                    <span class="eyebrow">
+                        <span class="eyebrow-line"></span>
+                        CURATED FOR YOU
+                    </span>
+                    <h2>Pieces to <em>fall for.</em></h2>
+                </div>
+
+                <a href="#newsletter" class="text-link">
+                    Find your style
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+            </div>
+
+            <div class="collection-grid container">
+
+                <article class="collection-card collection-large">
+                    <a href="#newsletter" class="collection-image">
+                        <img
+                            src="images/modera-everyday.jpg"
+                            alt="Elegant feminine outfit in a fashion editorial"
+                            loading="lazy"
+                        >
+                        <span class="collection-number">01 / 03</span>
+                        <span class="collection-arrow">
+                            <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </a>
+
+                    <div class="collection-info">
+                        <div>
+                            <span class="collection-category">FOR EVERYDAY MOMENTS</span>
+                            <h3>Everyday Elegance</h3>
+                        </div>
+                        <span class="collection-count">01</span>
+                    </div>
+                </article>
+
+                <article class="collection-card collection-middle">
+                    <a href="#newsletter" class="collection-image">
+                        <img
+                            src="images/modera-classics.jpg"
+                            alt="Contemporary women's fashion inspiration"
+                            loading="lazy"
+                        >
+                        <span class="collection-number">02 / 03</span>
+                        <span class="collection-arrow">
+                            <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </a>
+
+                    <div class="collection-info">
+                        <div>
+                            <span class="collection-category">LESS, BUT LOVELIER</span>
+                            <h3>Modern Classics</h3>
+                        </div>
+                        <span class="collection-count">02</span>
+                    </div>
+                </article>
+
+                <article class="collection-card collection-large">
+                    <a href="#newsletter" class="collection-image">
+                        <img
+                            src="images/modera-occasion.jpg"
+                            alt="Fashion editorial featuring a sophisticated outfit"
+                            loading="lazy"
+                        >
+                        <span class="collection-number">03 / 03</span>
+                        <span class="collection-arrow">
+                            <i data-lucide="arrow-up-right"></i>
+                        </span>
+                    </a>
+
+                    <div class="collection-info">
+                        <div>
+                            <span class="collection-category">MADE FOR YOUR MOMENTS</span>
+                            <h3>The Occasion Edit</h3>
+                        </div>
+                        <span class="collection-count">03</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Brand Story -->
+        <section class="story section-padding" id="story">
+
+            <div class="story-grid container">
+
+                <div class="story-visual">
+                    <div class="story-image">
+                        <img
+                            src="images/modera-story.jpg"
+                            alt="Fashion portrait celebrating personal style"
+                            loading="lazy"
+                        >
+                    </div>
+
+                    <div class="story-stamp">
+                        <span>STYLE WITH</span>
+                        <span class="stamp-symbol">♡</span>
+                        <span>INTENTION</span>
+                    </div>
+                </div>
+
+                <div class="story-content">
+                    <span class="eyebrow">
+                        <span class="eyebrow-line"></span>
+                        A LITTLE ABOUT US
+                    </span>
+
+                    <h2>More than fashion.<br>A feeling of <em>your own.</em></h2>
+
+                    <p>
+                        We believe the most beautiful style is the kind
+                        that feels like you. Uncomplicated, considered,
+                        and quietly confident.
+                    </p>
+
+                    <p>
+                        MODERA is inspired by the beauty of modest dressing,
+                        the softness of feminine details, and the freedom
+                        to express yourself without compromise.
+                    </p>
+
+                    <p>
+                        Every detail tells a story. Let yours be one of
+                        effortless elegance.
+                    </p>
+
+                    <a href="#features" class="btn btn-outline">
+                        OUR PHILOSOPHY
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                    <div class="story-signature">
+                        <span class="signature-line"></span>
+                        <span>With love, MODERA</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Philosophy / Features -->
+        <section class="features section-padding" id="features">
+
+            <div class="features-header container">
+                <span class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    THE MODERA WAY
+                </span>
+
+                <h2>Beauty in the <em>little things.</em></h2>
+
+                <p>
+                    Thoughtful choices. Beautiful details.
+                    A style that stays true to you.
+                </p>
+            </div>
+
+            <div class="features-grid container">
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="flower-2"></i>
+                    </div>
+                    <span class="feature-number">01</span>
+                    <h3>Timeless by Nature</h3>
+                    <p>
+                        Beyond passing trends, we celebrate silhouettes
+                        and styles that feel beautiful season after season.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <span class="feature-number">02</span>
+                    <h3>Made to Feel Like You</h3>
+                    <p>
+                        Personal style is a form of self-expression.
+                        Find inspiration that honours your individuality.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="sparkles"></i>
+                    </div>
+                    <span class="feature-number">03</span>
+                    <h3>Details That Matter</h3>
+                    <p>
+                        Soft colours, thoughtful combinations, and
+                        considered styling make everyday dressing special.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Editorial Quote -->
+        <section class="quote-section">
+            <div class="quote-content container">
+                <span class="quote-mark">“</span>
+                <p>
+                    True elegance isn't about standing out.
+                    It's about feeling entirely <em>yourself.</em>
+                </p>
+                <span class="quote-caption">THE MODERA PHILOSOPHY</span>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter section-padding" id="newsletter">
+
+            <div class="newsletter-content container">
+
+                <div class="newsletter-decoration decoration-left">✳</div>
+
+                <span class="eyebrow">A NOTE FROM MODERA</span>
+
+                <h2>A little beauty<br>in your <em>inbox.</em></h2>
+
+                <p>
+                    Join our world of thoughtful styling, fresh inspiration,
+                    and little reminders to celebrate your own kind of beauty.
+                </p>
+
+                <form class="newsletter-form" id="newsletterForm">
+                    <label for="email" class="visually-hidden">
+                        Your email address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your email address"
+                        required
+                    >
+
+                    <button type="submit">
+                        COUNT ME IN
+                        <i data-lucide="arrow-up-right"></i>
+                    </button>
+                </form>
+
+                <p class="form-message" id="formMessage" aria-live="polite"></p>
+
+                <span class="newsletter-note">
+                    A little inspiration, never the clutter.
+                </span>
+
+                <div class="newsletter-decoration decoration-right">✳</div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+
+         <div class="footer-main container">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">
+                    MODERA<span>.</span>
+                </a>
+
+                <p>
+                    Modest by nature.<br>
+                    Elegant by design.
+                </p>
+
+                <a href="mailto:hello@modera.example" class="footer-email">
+                    Get in touch
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+            </div>
+
+            <div class="footer-column">
+                <h4>EXPLORE</h4>
+                <a href="#home">Home</a>
+                <a href="#collections">Collections</a>
+                <a href="#story">Our Story</a>
+                <a href="#features">Our Philosophy</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>DISCOVER</h4>
+                <a href="#collections">Everyday Elegance</a>
+                <a href="#collections">Modern Classics</a>
+                <a href="#collections">The Occasion Edit</a>
+                <a href="#newsletter">Join Our World</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>FOLLOW THE FEELING</h4>
+                <a href="#contact">Instagram ↗</a>
+                <a href="#contact">Pinterest ↗</a>
+                <a href="#contact">Contact Us ↗</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom container">
+            <p>© <span id="currentYear"></span> MODERA. All rights reserved.</p>
+            <p>MADE WITH INTENTION. WORN WITH CONFIDENCE.</p>
+            <a href="#home" class="back-to-top">
+                BACK TO TOP ↑
+            </a>
+        </div>
+
+    </footer>
+
+</body>
+</html>
